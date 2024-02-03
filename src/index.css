@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .time-segment {
+    @apply flex flex-col items-center gap-3;
+  }
+}
+
+@layer utilities {
+  .time-component {
+    @apply text-slate-300 font-thin lg:text-lg;
+  }
+
+  .time-divider {
+    @apply lg:text-6xl md:text-4xl text-3xl text-slate-600 -mb-10;
+  }
+
+  .time-value {
+    @apply lg:text-7xl text-5xl  text-slate-600;
+  }
+}
