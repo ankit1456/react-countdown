@@ -1,6 +1,8 @@
 import Coundown from "./Coundown";
 
 const Main = () => {
+  const targetDate = new Date("02 01 2025");
+
   return (
     <main className="h-full  lg:gap-28  gap-20 flex items-center px-5 justify-center">
       <div className="flex flex-col gap-5 items-center lg:pl-12">
@@ -8,7 +10,7 @@ const Main = () => {
           Ready to launch in...
         </h1>
 
-        <Coundown targetDate={new Date("02 20 2024")} />
+        <Coundown targetDate={targetDate} />
 
         <p className="text-center text-slate-400 mt-5 lg:text-base text-sm">
           Sign up to find out more about the launch
