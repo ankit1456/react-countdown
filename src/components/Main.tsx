@@ -1,4 +1,4 @@
-import Coundown from "./Coundown";
+import Countdown from "./Countdown";
 
 const Main = () => {
   return (
@@ -8,7 +8,7 @@ const Main = () => {
           Ready to launch in...
         </h1>
 
-        <Coundown targetDate={new Date("02 20 2024")} />
+        <Countdown targetDate={new Date("02 01 2025")} />
 
         <p className="text-center text-slate-400 mt-5 lg:text-base text-sm">
           Sign up to find out more about the launch

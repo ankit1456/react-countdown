@@ -11,7 +11,7 @@ function App() {
 
       <Main />
       <img
-        className="absolute -bottom-16  w-full"
+        className="absolute -bottom-16 w-full"
         src="/bottom-image.svg"
         alt="bottom-bg-img"
       />

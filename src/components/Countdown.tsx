@@ -1,7 +1,7 @@
 import { useCountdown } from "../hooks/useCountdown";
 import TimeSegment from "./TimeSegment";
 
-const Coundown = ({ targetDate }: { targetDate: Date }) => {
+const Countdown = ({ targetDate }: { targetDate: Date }) => {
   const [days, hours, minutes, seconds] = useCountdown(targetDate);
   return (
     <div className="flex items-center  lg:gap-5 gap-3">
@@ -16,4 +16,4 @@ const Coundown = ({ targetDate }: { targetDate: Date }) => {
   );
 };
 
-export default Coundown;
+export default Countdown;
