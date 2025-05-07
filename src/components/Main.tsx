@@ -1,7 +1,7 @@
 import Countdown from "./Countdown";
 
 const Main = () => {
-  const targetDate = new Date("02 01 2025");
+  const targetDate = new Date("07 23 2025");
 
   return (
     <main className="h-full  lg:gap-28  gap-20 flex items-center px-5 justify-center">
